@@ -1,92 +1,112 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-
 <body>
-	<h2 class="block-heading p  center" style="color:#3b99e0;">Shopping cart</h2>
-	<p class="block-heading p">The customer is very omportant. The customer will be followed by the customer.Now, as an num,i have no right to be in posession of property.</p>
-	<div class="container row ">
-		<!-- left part -->
-		<div class="row col-lg-8 product mb-3 align-items-center">
-			<!-- 1st product -->
-			<img class="col-3 img-fluid" src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aSUyMHBob25lfGVufDB8fDB8fHww">
-			<div class="col-3">
-				<h5>I am sorry</h5>
-				<p>Display: 5 inches</p>
-				<p>RAM: 4GB</p>
-				<P>Memory: 32GB</P>
-				<a href="#">View Details</a>
-			</div>
-			<div class="col-3">
-				<p>Quantity:</p>
-				<p>0</p>
-			</div>
-			<br>
-			<p class="col-3">$120</p>
-			
-			<!--2nd product -->
-			<img class="col-3 img-fluid" src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aSUyMHBob25lfGVufDB8fDB8fHww">
-			<div class="col-3">
-				<h5>I am sorry</h5>
-				<p>Display: 5 inches</p>
-				<p>RAM: 4GB</p>
-				<P>Memory: 32GB</P>
-				<a href="#">View Details</a>
-			</div>
-			<div class="col-3">
-				<p>Quantity:</p>
-				<p class="center " style="background-color: var(--bs-body-bg);"">0</p>
-			</div>
-			<br>
-			<p class="col-3">$120</p>
 
-			<!--3rd Product  -->
-			<img class="col-3 img-fluid" src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aSUyMHBob25lfGVufDB8fDB8fHww">
-			<div class="col-3">
-				<h5>I am sorry</h5>
-				<p>Display: 5 inches</p>
-				<p>RAM: 4GB</p>
-				<P>Memory: 32GB</P>
-				<a href="#">View Details</a>
-			</div>
-			<div class="col-3">
-				<p>Quantity:</p>
-				<p>0</p>
-			</div>
-			<br>
-			<p class="col-3">$120</p>
-			
-		</div>
+  <!-- Block Heading -->
+  <div class="block-heading text-center">
+    <h2 style="color:#3b99e0;">Shopping Cart</h2>
+    <p class="text-center">The customer is very important. The customer will be followed by the customer.</p>
+  </div>
 
-		<!--Right part  -->
-		<div class="row col-lg-4 summary">
-			<h2>Summary</h2>
-			<div class="row">
-				<p class="col-lg-6">subtotal </p>
-				<p class="col-lg-6">$360</p>
-				<hr>
-				<p class="col-lg-6">Discount </p>
-				<p class="col-lg-6">$0</p>
-				<hr>
-				<p class="col-lg-6">Shipping</p>
-				<p class="col-lg-6">$0</p>
-				<hr>
-				<p class="col-lg-6">Total </p>
-				<p class="col-lg-6">$360</p>
-			</div>
-			<button class="btn btn-primary col-lg-3 center">Checkout</button>
-		</div>
-	</div>
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <div class="row">
 
+      <!-- Left part: col-lg-8 -->
+      <div class="col-lg-8 product">
+
+        <!-- 1st Product -->
+        <div class="row mb-3 align-items-center">
+          <div class="col-3">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500&auto=format&fit=crop&q=60">
+          </div>
+          <div class="col-3">
+            <h5>iPhone</h5>
+            <p>Display: 5 inches</p>
+            <p>RAM: 4GB</p>
+            <p>Memory: 32GB</p>
+            <!-- anchor tag added here -->
+            <a href="#">View Details</a>
+          </div>
+          <div class="col-3">
+            <p>Quantity:</p>
+            <p>0</p>
+          </div>
+          <div class="col-3">
+            <p>$120</p>
+          </div>
+        </div>
+
+        <!-- 2nd Product -->
+        <div class="row mb-3 align-items-center">
+          <div class="col-3">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500&auto=format&fit=crop&q=60">
+          </div>
+          <div class="col-3">
+            <h5>iPhone</h5>
+            <p>Display: 5 inches</p>
+            <p>RAM: 4GB</p>
+            <p>Memory: 32GB</p>
+            <a href="#">View Details</a>
+          </div>
+          <div class="col-3">
+            <p>Quantity:</p>
+            <p>0</p>
+          </div>
+          <div class="col-3">
+            <p>$120</p>
+          </div>
+        </div>
+
+        <!-- 3rd Product -->
+        <div class="row mb-3 align-items-center">
+          <div class="col-3">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=500&auto=format&fit=crop&q=60">
+          </div>
+          <div class="col-3">
+            <h5>iPhone</h5>
+            <p>Display: 5 inches</p>
+            <p>RAM: 4GB</p>
+            <p>Memory: 32GB</p>
+            <a href="#">View Details</a>
+          </div>
+          <div class="col-3">
+            <p>Quantity:</p>
+            <p>0</p>
+          </div>
+          <div class="col-3">
+            <p>$120</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right part: col-lg-4 -->
+      <div class="col-lg-4 summary">
+        <h2>Summary</h2>
+        <div class="row">
+          <p class="col-6">Subtotal</p>
+          <p class="col-6">$360</p>
+          <hr>
+          <p class="col-6">Discount</p>
+          <p class="col-6">$0</p>
+          <hr>
+          <p class="col-6">Shipping</p>
+          <p class="col-6">$0</p>
+          <hr>
+          <p class="col-6">Total</p>
+          <p class="col-6">$360</p>
+        </div>
+        <button class="btn btn-primary">Checkout</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
